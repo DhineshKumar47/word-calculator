@@ -1,0 +1,54 @@
+html,
+body{
+    background-color: rgb(134, 161, 134);
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+#type h2,#type div{
+display: flex;
+justify-content: center;
+}
+
+#type{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(69, 77, 77);
+    padding: 20px;
+    margin: 150px 150px;
+    border-radius: 20px;
+}
+
+h2{
+    word-spacing: 0.4em;
+    letter-spacing: 0.5px;
+    color: rgb(193, 226, 126);
+    padding: 1.5em;
+    font-size: 1.5;
+}
+
+input{
+    background-color: bisque;
+    color: rgb(0, 0, 0);
+    height: 250px;
+    width: 250px;
+    border-radius: 0.5em;
+     padding-left:30px;
+    margin-bottom: 30px;
+}
+
+button{
+    background-color: black;
+    color: rgb(152, 198, 125);
+    height:2.5em;
+    width:fit-content;
+    border-radius: 5px;
+}
+result{
+    padding: 2em;
+    margin-top: 10px;
+    color: white;
+}
+
+
+
+

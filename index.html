@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/words calculator/style.css">
+    <title>Words Calculator</title>
+</head>
+<body>
+    <div id="type">
+        <h2>Type a sentence</h2>
+        <div class="sentence">
+            <input type="text" id="input" placeholder="type something...">
+        </div>
+        <div>
+            <button type="submit" onclick="count()">Calculate the words</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script>
+        function count(){
+            const words = String(document.getElementById("input").value);
+            const letterCount = words.split(" ").length;
+            const result = document.getElementById("result")
+            result.innerHTML = letterCount.toFixed() +  "  words"
+        }
+
+    </script>
+    
+</body>
+</html>
